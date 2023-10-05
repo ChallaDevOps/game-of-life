@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Source') {
             steps {
-                git 'https://github.com/naresh808/game-of-life.git'
+                git 'https://github.com/ChallaDevOps/game-of-life.git'
             }
         }
     }
